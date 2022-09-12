@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class OperadoresLogicosLogin {
     public static void main(String[] args) {
 
-        String[] usernames = new String[3];
+       /* String[] usernames = new String[3];
         String[] passwords = new String[3];
 
         usernames[0] = "Jose";
@@ -12,7 +12,9 @@ public class OperadoresLogicosLogin {
 
         passwords[0] = "123";
         passwords[1] = "123456";
-        passwords[2] = "123456789";
+        passwords[2] = "123456789";*/
+        String[] usernames ={"Jose", "Benito", "Luis"};
+        String[] passwords ={"123", "123456","123456789"};
 
         Scanner scanner = new Scanner(System.in);
 
